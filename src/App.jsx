@@ -1,14 +1,14 @@
-import Navbar from "#components/Navbar"
+import { Navbar, Welcome } from "#components";
 
 function App() {
-  
   return (
     <>
       <main>
-        <Navbar/>
+        <Navbar />
+        <Welcome />
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
