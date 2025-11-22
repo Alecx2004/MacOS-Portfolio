@@ -1,4 +1,10 @@
+import gsap from "gsap";
+import { Draggable } from "gsap/Draggable";
+
 import { Navbar, Welcome, Dock } from "#components";
+import { Terminal } from "#window";
+
+gsap.registerPlugin(Draggable);
 
 function App() {
   return (
@@ -7,6 +13,8 @@ function App() {
         <Navbar />
         <Welcome />
         <Dock />
+
+        <Terminal />
       </main>
     </>
   );
