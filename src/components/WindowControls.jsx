@@ -14,3 +14,5 @@ function WindowControls({ target }) {
 }
 
 export default WindowControls;
+
+
