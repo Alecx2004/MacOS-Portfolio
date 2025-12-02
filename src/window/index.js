@@ -5,5 +5,6 @@ import Finder from "#window/Finder"
 import Text from "#window/Text"
 import Image from "#window/Image"
 import Contact from "#window/Contact"
+import Photo from "#window/Photo"
 
-export {Terminal, Safari, Resume, Finder, Text, Image, Contact}
+export {Terminal, Safari, Resume, Finder, Text, Image, Contact, Photo}
