@@ -17,7 +17,7 @@ function Resume() {
         <h2>Resume.pdf</h2>
 
         <a
-          href="files/resume.pdf"
+          href="files/resume-2.pdf"
           download
           className="cursor-pointer"
           title="Download resume"
@@ -26,7 +26,7 @@ function Resume() {
         </a>
       </div>
 
-      <Document file="files/resume.pdf">
+      <Document file="files/resume-2.pdf">
         <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
       </Document>
     </>

@@ -75,38 +75,34 @@ const dockApps = [
 ];
 
 const blogPosts = [
-  {
-    id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-  },
+//   {
+//     id: 1,
+//     date: "Sep 2, 2025",
+//     title:
+//       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+//     image: "/images/blog1.png",
+//     link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+//   },
+//   {
+//     id: 2,
+//     date: "Aug 28, 2025",
+//     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+//     image: "/images/blog2.png",
+//     link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+//   },
+//   {
+//     id: 3,
+//     date: "Aug 15, 2025",
+//     title: "The Ultimate Guide to Mastering GSAP Animations",
+//     image: "/images/blog3.png",
+//     link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+//   },
 ];
 
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["HTML5","React.js", "TypeScript", "JavaScript"],
   },
   {
     category: "Styling",
@@ -114,7 +110,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
@@ -124,6 +120,10 @@ const techStack = [
     category: "Dev Tools",
     items: ["Git", "GitHub", "Docker"],
   },
+  {
+    category: "Language",
+    items: ["Java", "c", "C++", "Python", "PHP"],
+  },
 ];
 
 const socials = [
@@ -132,28 +132,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/Alecx2004",
   },
-  {
-    id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
-  },
+//   {
+//     id: 2,
+//     text: "Platform",
+//     icon: "/icons/atom.svg",
+//     bg: "#4bcb63",
+//     link: "https://jsmastery.com/",
+//   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/LaishramAl2004",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/alecx-laishram-6014b32ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 ];
 
@@ -188,19 +188,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/alecx.jpeg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/alecx-2.jpeg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/alecx-3.jpeg",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/alecx-4.jpeg",
   },
 ];
 
@@ -223,163 +223,163 @@ const WORK_LOCATION = {
   kind: "folder",
   children: [
     // ▶ Project 1
-    {
-      id: 5,
-      name: "Nike Ecommerce Website Application",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
-      windowPosition: "top-[5vh] left-2", // optional: Finder window position
-      children: [
-        {
-          id: 1,
-          name: "Nike Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-          ],
-        },
-        {
-          id: 2,
-          name: "nike.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-          position: "top-10 right-20",
-        },
-        {
-          id: 4,
-          name: "nike.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
-      ],
-    },
+    // {
+    //   id: 5,
+    //   name: "Nike Ecommerce Website Application",
+    //   icon: "/images/folder.png",
+    //   kind: "folder",
+    //   position: "top-10 left-5", // icon position inside Finder
+    //   windowPosition: "top-[5vh] left-2", // optional: Finder window position
+    //   children: [
+    //     {
+    //       id: 1,
+    //       name: "Nike Project.txt",
+    //       icon: "/images/txt.png",
+    //       kind: "file",
+    //       fileType: "txt",
+    //       position: "top-5 left-10",
+    //       description: [
+    //         "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
+    //         "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
+    //         "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
+    //         "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+    //       ],
+    //     },
+    //     {
+    //       id: 2,
+    //       name: "nike.com",
+    //       icon: "/images/safari.png",
+    //       kind: "file",
+    //       fileType: "url",
+    //       href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+    //       position: "top-10 right-20",
+    //     },
+    //     {
+    //       id: 4,
+    //       name: "nike.png",
+    //       icon: "/images/image.png",
+    //       kind: "file",
+    //       fileType: "img",
+    //       position: "top-52 right-80",
+    //       imageUrl: "/images/project-1.png",
+    //     },
+    //     {
+    //       id: 5,
+    //       name: "Design.fig",
+    //       icon: "/images/plain.png",
+    //       kind: "file",
+    //       fileType: "fig",
+    //       href: "https://google.com",
+    //       position: "top-60 right-20",
+    //     },
+    //   ],
+    // },
 
-    // ▶ Project 2
-    {
-      id: 6,
-      name: "AI Resume Analyzer",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-6",
-      children: [
-        {
-          id: 1,
-          name: "AI Resume Analyzer Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 right-10",
-          description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
-          ],
-        },
-        {
-          id: 2,
-          name: "ai-resume-analyzer.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-          position: "top-20 left-20",
-        },
-        {
-          id: 4,
-          name: "ai-resume-analyzer.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 left-5",
-        },
-      ],
-    },
+    // // ▶ Project 2
+    // {
+    //   id: 6,
+    //   name: "AI Resume Analyzer",
+    //   icon: "/images/folder.png",
+    //   kind: "folder",
+    //   position: "top-52 right-80",
+    //   windowPosition: "top-[20vh] left-6",
+    //   children: [
+    //     {
+    //       id: 1,
+    //       name: "AI Resume Analyzer Project.txt",
+    //       icon: "/images/txt.png",
+    //       kind: "file",
+    //       fileType: "txt",
+    //       position: "top-5 right-10",
+    //       description: [
+    //         "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
+    //         "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
+    //         "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
+    //         "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+    //       ],
+    //     },
+    //     {
+    //       id: 2,
+    //       name: "ai-resume-analyzer.com",
+    //       icon: "/images/safari.png",
+    //       kind: "file",
+    //       fileType: "url",
+    //       href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+    //       position: "top-20 left-20",
+    //     },
+    //     {
+    //       id: 4,
+    //       name: "ai-resume-analyzer.png",
+    //       icon: "/images/image.png",
+    //       kind: "file",
+    //       fileType: "img",
+    //       position: "top-52 left-80",
+    //       imageUrl: "/images/project-2.png",
+    //     },
+    //     {
+    //       id: 5,
+    //       name: "Design.fig",
+    //       icon: "/images/plain.png",
+    //       kind: "file",
+    //       fileType: "fig",
+    //       href: "https://google.com",
+    //       position: "top-60 left-5",
+    //     },
+    //   ],
+    // },
 
-    // ▶ Project 3
-    {
-      id: 7,
-      name: "Food Delivery App",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
-      children: [
-        {
-          id: 1,
-          name: "Food Delivery App Project.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-5 left-10",
-          description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
-          ],
-        },
-        {
-          id: 2,
-          name: "food-delivery-app.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-          position: "top-10 right-20",
-        },
-        {
-          id: 4,
-          name: "food-delivery-app.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-60 right-20",
-        },
-      ],
-    },
+    // // ▶ Project 3
+    // {
+    //   id: 7,
+    //   name: "Food Delivery App",
+    //   icon: "/images/folder.png",
+    //   kind: "folder",
+    //   position: "top-10 left-80",
+    //   windowPosition: "top-[33vh] left-7",
+    //   children: [
+    //     {
+    //       id: 1,
+    //       name: "Food Delivery App Project.txt",
+    //       icon: "/images/txt.png",
+    //       kind: "file",
+    //       fileType: "txt",
+    //       position: "top-5 left-10",
+    //       description: [
+    //         "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
+    //         "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
+    //         "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
+    //         "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+    //       ],
+    //     },
+    //     {
+    //       id: 2,
+    //       name: "food-delivery-app.com",
+    //       icon: "/images/safari.png",
+    //       kind: "file",
+    //       fileType: "url",
+    //       href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+    //       position: "top-10 right-20",
+    //     },
+    //     {
+    //       id: 4,
+    //       name: "food-delivery-app.png",
+    //       icon: "/images/image.png",
+    //       kind: "file",
+    //       fileType: "img",
+    //       position: "top-52 right-80",
+    //       imageUrl: "/images/project-3.png",
+    //     },
+    //     {
+    //       id: 5,
+    //       name: "Design.fig",
+    //       icon: "/images/plain.png",
+    //       kind: "file",
+    //       fileType: "fig",
+    //       href: "https://google.com",
+    //       position: "top-60 right-20",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -396,8 +396,8 @@ const ABOUT_LOCATION = {
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
-      position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      position: "top-5 left-5",
+      imageUrl: "/images/alecx.jpeg",
     },
     {
       id: 2,
@@ -405,8 +405,8 @@ const ABOUT_LOCATION = {
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
-      position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      position: "top-5 right-72",
+      imageUrl: "/images/alecx-2.jpeg",
     },
     {
       id: 3,
@@ -414,8 +414,8 @@ const ABOUT_LOCATION = {
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      position: "top-35 right-68",
+      imageUrl: "/images/alecx-3.jpeg",
     },
     {
       id: 4,
@@ -423,12 +423,12 @@ const ABOUT_LOCATION = {
       icon: "/images/txt.png",
       kind: "file",
       fileType: "txt",
-      position: "top-60 left-5",
+      position: "top-35 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/alecx.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+        "Hey! I’m Alecx 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
+        "I specialize in JavaScript, React—and I love making things feel smooth, fast, and just a little bit delightful.",
         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
         "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
       ],
@@ -477,7 +477,7 @@ const TRASH_LOCATION = {
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
-      position: "top-40 left-80",
+      position: "top-10 left-40",
       imageUrl: "/images/trash-2.png",
     },
   ],
